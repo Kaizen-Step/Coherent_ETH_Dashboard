@@ -56,18 +56,10 @@ Validators are now free to withdraw, albeit with some considerations, their stak
 st.write("""
 ## Methodology ##  
 
-The Russia-Ukraine war has had several impacts on the global economy. One of the most significant impacts is the disruption of energy supplies. Ukraine is a major transit country for Russian gas exports to Europe, and the conflict has raised concerns about the security and reliability of energy supplies to the region. We attempted to track the impact of the Russian invasion (Ukraine-Russia War), which took place on February 24, 2022, on several facets of the world economy in this dashboard. We were able to compare the the stock market before and after the invasion as well as cryptocurrency, real estate prices, agricultural prices, and inflation. Unfortunately, due to incomplete and outdated information regarding Russia's economy after the war(which might be a policy for war situations), the majority of studies concentrated on European countries as a region near to the war and the United States as a country that was influenced by the war but was not directly participating in it. 
-We tooke two-year spans from the year before and the year following the war for the majority of the charts. The time frame was increased in certain instances to five years in order to better comprehend the perspective. Eight different databases were used to create in-depth analyses for each section of this dashboard. Below is a list of the databases and the parts they were used in:
+We used Coherent Ethereum Raw Data Sets for our dashboard, which, as their name implies, only include hexadecimal raw data. Additionally, the block table's hexadecimal parameters were converted to integers using the Coherent Block Decoded Algorithm. The raw data tables only supply a limited number of columns and data, and the analyst did his best to develop dashboards that sound helpful and provide insight, which is quite difficult with a limited quantity of data and also takes a lot of time. Using the coherent "ETHEREUM_RAW_DATA.RAW.TRANSACTIONS" database and joining "DBT_DB.DEVELOPMENT.DECODED_BLOCKS," we first look into Ethereum transactions before and after the Shanghai upgrade, average gas usage, and hourly and weekly patterns. This table joins on block hashes because the number of columns for raw data is limited.   
+Then, using the "Total_Difficulty" column of the raw data, we looked at the network difficulty, the situation of the ETH miners, and the effect of the Ukraine war on mining Ethereum. The number of users who are actively using Ethereum has been analyzed, as well as their hourly and daily activity patterns. The ETH price before and after Shanghai was examined to arrive at the final price.
 
 
-* [Federal Reserve Economic DataBase ](https://www.federalreserve.gov/data.htm) (US Inflation, Employment)
-* [Euro Stat Economic DataBase ](https://ec.europa.eu/eurostat/web/main/data/database) (Euro Inflation, Unemployment Rate)
-* [U.S. BUREAU OF LABOR STATISTICS ](https://www.bls.gov/data/) (Employment)
-* [Yahoo Finance ](https://finance.yahoo.com/quote/%5EGSPC?p=%5EGSPC) (Stock Market , Cryptocurrencies)
-* [International Construction Cost Report ](https://www.arcadis.com/en/knowledge-hub/perspectives/global/international-construction-costs) (Construction Costs)
-* [International Cost Engineering Council) ](https://www.icoste.org) (Real Estate)
-* [World Bank Open Data ](https://data.worldbank.org/) (Real Estate, Agricultral Price)
-* [Euro Stat Ukraine War ](https://ec.europa.eu/eurostat/web/ukraine) (Ukraine Refugee Granted temporary protection)
 
 """)
 
