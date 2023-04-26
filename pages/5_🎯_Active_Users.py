@@ -68,9 +68,9 @@ st.info(""" ##### In This Employment Rates Section you can find: ####
 st.write(""" ## Active Users Before and After Shanghai Update
 """)
 
-st.write(""" The conflict began in 2014, and since then, it has escalated into a full-blown military and diplomatic crisis, affecting many countries around the world.
-One way that the Russia-Ukraine War has affected the employment rate in the United States is through the imposition of economic sanctions. In response to Russia's actions in Ukraine, the United States and the European Union imposed a series of economic sanctions on Russia. These sanctions have targeted key sectors of the Russian economy, such as energy, finance, and defense.
-Numerous American businesses who conduct business with Russia have been harmed as a result of these restrictions. For instance, businesses that export items to Russia have experienced a sharp fall in sales, which has resulted in the loss of jobs in some sectors. Employer possibilities have decreased as a result of the impact on businesses that rely on Russian imports. Yet, these circumstances had no impact on the growth of the US labor force, which, as you can see, was unaffected by the conflict and continued to increase gradually beyond February 2022.
+st.write(""" After the update, Ethereum saw significant improvements in network efficiency, resulting in faster transaction processing and lower fees. These improvements led to an increase in active users, as more people were able to transact on the network with ease.
+With the improved scalability and security of the network, more developers also began to build decentralized applications (DApps) on Ethereum. This resulted in a wider range of use cases for the network, which attracted more users and increased activity on the platform.
+The Shanghai update played a significant role in increasing user engagement and activity on the Ethereum network. The improvements to network efficiency, scalability, and security created a better user experience, which attracted more users and developers to the platform.
 
 """)
 # Employment Rate In the Unite State Before and After War
