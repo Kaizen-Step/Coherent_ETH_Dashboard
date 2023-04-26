@@ -43,8 +43,7 @@ st.write(""" ### Transaction Fee on Ethereum ##  """)
 
 st.write("""  Gas is a measure of the computational effort required to execute a transaction or contract on the Ethereum network. Every operation on the network, from transferring Ether (ETH) to executing smart contracts, requires a certain amount of gas. Gas fees are paid in ETH, the native cryptocurrency of the Ethereum network.    
 The amount of gas required for a transaction or contract execution is determined by its complexity and the current demand on the network. The higher the demand for network resources, the higher the gas fee required to ensure that transactions are processed in a timely manner.   
-Gas fees are paid to the miners who process and validate transactions on the network. Miners prioritize transactions with higher gas fees, so users who want their transactions processed quickly must pay a higher fee.   
-In summary, gas usage and transaction fees are an essential part of the Ethereum network. They help ensure the security and stability of the network by incentivizing miners to process transactions and execute contracts.  
+Gas fees are paid to the miners who process and validate transactions on the network. Miners prioritize transactions with higher gas fees, so users who want their transactions processed quickly must pay a higher fee.     
 
 
   """)
@@ -64,9 +63,9 @@ st.info(""" ##### In This Transaction Fees And Gas Usage Section you can find: #
 #################################################################################################
 st.write(""" ## After The Upgrade, Will Ethereum Fees Decrease?  """)
 
-st.write(""" After the Shanghai improvement, Ethereum fees will indeed fall. This is due to the upgrade's equalization of block size and overall improvement in call-data efficiency throughout the Ethereum network.
+st.write(""" After the Shanghai improvement, Ethereum fees indeed fell. This is due to the upgrade's equalization of block size and overall improvement in call-data efficiency throughout the Ethereum network.
 "When specialized chains can build on a layer-2 like Polygon and lower the cost of communicating with the base chain Ethereum, that reduces gas prices for users everywhere in the ecosystem by making it more efficient to scale horizontally in a way that spreads demand." Gelen Moore
-The network will last longer overall because to the lower transaction prices. A WARM coinbase is also anticipated to be included with the Ethereum Shanghai upgrade, which will slightly reduce the fees paid by well-known constructors like Flashbots and BloXroute.
+The network will last longer overall because to the lower transaction prices. A WARM coinbase is also anticipated to be included with the Ethereum Shanghai upgrade, which will slightly reduce the fees paid by well-known constructors like Flashbots and BloXroute. The following graphs show that, in contrast to before the Shanghai upgrade, the daily number of transactions was fairly consistent but the average gas usage significantly decreased.
     """)
 
 # Daily Transactions Before and After Shanghai Update
@@ -87,7 +86,7 @@ st.plotly_chart(fig, use_container_width=True, theme=theme_plotly)
 #####################################################
 st.write(""" ## Ethereum Transaction Pattern After Shanghai Upgrade """)
 
-st.write(""" One significant change that the Shanghai upgrade brought to Ethereum transactions is the reduction in gas fees. Gas fees are the fees paid by users to miners to process transactions on the Ethereum network. Before the upgrade, gas fees were often high, making it expensive to execute transactions on the network. However, the Shanghai upgrade introduced a new pricing algorithm that reduced gas fees by up to 50%, making transactions more affordable for users.
+st.write(""" One significant change that the Shanghai upgrade brought to Ethereum transactions is the reduction in gas fees. Before the upgrade, gas fees were often high, making it expensive to execute transactions on the network. However, the Shanghai upgrade introduced a new pricing algorithm that reduced gas fees by up to 50%, making transactions more affordable for users.
 Another pattern that emerged after the Shanghai upgrade is the increased speed of transaction processing. The upgrade included several optimizations that reduced the time it takes to validate and confirm transactions on the network. This has resulted in faster transaction confirmation times and improved overall network throughput.
 The Shanghai upgrade also introduced new features that have impacted Ethereum transaction patterns. One such feature is the introduction of a new transaction type called "access list transactions." Access list transactions provide a more efficient way to execute certain types of smart contracts and reduce the cost of executing those contracts.""")
 
